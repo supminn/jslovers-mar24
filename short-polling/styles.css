@@ -23,10 +23,9 @@
 
 .user-name {
   color: rgb(34, 126, 247);
-  font-weight: bold;
 }
 
-.input {
+#input {
   padding: 0.5rem;
   width: 50%;
   border-radius: 0.5rem;

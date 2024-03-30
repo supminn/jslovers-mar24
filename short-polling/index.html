@@ -9,20 +9,12 @@
   <body>
     <div class="container">
       <h1>My Social Media Feed</h1>
-      <div>
-        <section class="card">
-          <label class="user-name">Smile</label>
-          <p class="card-data">JSLovers workshop today</p>
-        </section>
-        <section class="card">
-          <label class="user-name">Supriya</label>
-          <p class="card-data">Let's learn polling</p>
-        </section>
-      </div>
-      <section class="input-section">
-        <input type="text" class="input" placeholder="What's on your mind" />
+      <div id="feed-container"></div>
+      <form id="post-form">
+        <input type="text" id="input" placeholder="What's on your mind" />
         <button class="post-btn">Post</button>
-      </section>
+      </form>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
