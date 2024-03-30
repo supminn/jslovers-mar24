@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Tips</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Coding Tips</h1>
+    <div id="sse-data"></div>
+
+    <script>
+      const eventSource = new EventSource('/sse');
+      eventSource.onmessage = (event) => {
+        const sseDataRef = document.getElementById('sse-data');
+        sseDataRef.innerHTML += `<p>${event.data}</p>`;
+      };
+    </script>
+  </body>
+</html>
