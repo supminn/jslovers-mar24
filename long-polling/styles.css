@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 60%;
+  margin: auto;
+  background-color: rgb(219, 219, 219);
+  height: 100vh;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  width: fit-content;
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: left;
+}
+
+.user-name {
+  color: rgb(34, 126, 247);
+}
+
+#input {
+  padding: 0.5rem;
+  width: 50%;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0.5rem;
+}
+
+.input-section {
+  text-align: left;
+}
+
+.post-btn {
+  padding: 0.5rem;
+  background-color: rgb(34, 126, 247);
+  border-radius: 0.5rem;
+  color: #fff;
+  border: none;
+  width: 3rem;
+}
