@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Websocket</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="chat-container">
+      <ul id="messages" class="chat-messages"></ul>
+
+      <form id="form" class="chat-form" action="">
+        <input
+          id="input"
+          autocomplete="off"
+          placeholder="Write a message..."
+        /><button>Send</button>
+      </form>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
